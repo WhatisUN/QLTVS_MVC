@@ -1,4 +1,6 @@
-package Model;
+package Controller;
+
+import Model.TaiKhoan;
 
 import java.sql.*;
 
@@ -36,7 +38,7 @@ public class TKDAO {
 
             loginStatement.setString(1, user);
             loginStatement.setString(2, pass);
-
+            int n = 0;
             ResultSet rs = loginStatement.executeQuery();
             if (rs.next()) {
                 bl = true;
@@ -59,7 +61,7 @@ public class TKDAO {
             signUpStatement.setString(3, u.getEmail());
 
             signUpStatement.executeUpdate();
-
+            //harry maguire a`
             signUpStatement.close();
 
             return true;
