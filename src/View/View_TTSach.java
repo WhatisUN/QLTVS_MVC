@@ -24,7 +24,7 @@ public class View_TTSach extends javax.swing.JFrame {
         tblsachTV = (DefaultTableModel) jTable2.getModel();
         ShowSachTv();
         ShowDuLieuSachTv();
-
+        //ádssadasdas
     }
 
     private void ShowSachTv() {
