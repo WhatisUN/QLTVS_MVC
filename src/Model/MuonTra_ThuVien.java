@@ -9,7 +9,6 @@ public class MuonTra_ThuVien extends Sach_ThuVien {
 
     public MuonTra_ThuVien() {
     }
-
     public MuonTra_ThuVien(String MSV, String MASACH, String NGAYMUON, String NGAYTRA, int SOLUONG, String QLTHUVIEN) {
         this.MSV = MSV;
         this.MASACH = MASACH;
@@ -18,7 +17,7 @@ public class MuonTra_ThuVien extends Sach_ThuVien {
         this.SOLUONG = SOLUONG;
         this.QLTHUVIEN = QLTHUVIEN;
     }
-
+    //solo yasuo?
     public String getMSV() {
         return MSV;
     }
