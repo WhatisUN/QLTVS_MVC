@@ -1,5 +1,7 @@
 package Controller;
 
+import Model.Sach_ThuVien;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;

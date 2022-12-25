@@ -1,4 +1,6 @@
-package Model;
+package Controller;
+
+import Model.MuonTra_ThuVien;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
